@@ -1,0 +1,14 @@
+{
+  "name": "ts",
+  "version": "1.0.0",
+  "description": "This is PIAIC ts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rana Zahoor Ahmad",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^5.1.6"
+  }
+}
