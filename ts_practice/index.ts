@@ -27,13 +27,12 @@ let b:number=1+ ++a
 // }
 
 
+
 // create sum of even between 1 to 100
 console.log("me");
-
+let evenNumbers:number[]=[]
 var sum:number=0
 for (let i:number = 1; i <=100; i++) {
-    if (i%2==0) {
-        sum=sum+i
-    }
+    if (i%2==0) {sum=sum+i;evenNumbers.push(i)}
 }
-console.log(sum)
+console.log(sum,evenNumbers)

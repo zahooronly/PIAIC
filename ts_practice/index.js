@@ -19,10 +19,12 @@ let b = 1 + ++a;
 // }
 // create sum of even between 1 to 100
 console.log("me");
+let evenNumbers = [];
 var sum = 0;
 for (let i = 1; i <= 100; i++) {
     if (i % 2 == 0) {
         sum = sum + i;
+        evenNumbers.push(i);
     }
 }
-console.log(sum);
+console.log(sum, evenNumbers);
