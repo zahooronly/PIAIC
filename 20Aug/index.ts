@@ -26,16 +26,13 @@
 
 
 
-// recursion
 function factorial(x:number){
-    // let i:number=1
     let result:number=1
     if (x>0) {
         while (x>=1) {
             result=x*result
             x--
         }
-        // console.log(result)
         return result
     }else{
         return console.log("Please enter a positive number")

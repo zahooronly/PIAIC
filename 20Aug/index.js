@@ -16,16 +16,13 @@
 //     if (i%2==0) {sum=sum+i;evenNumbers.push(i)}
 // }
 // console.log(sum,evenNumbers)
-// recursion
 function factorial(x) {
-    // let i:number=1
     let result = 1;
     if (x > 0) {
         while (x >= 1) {
             result = x * result;
             x--;
         }
-        // console.log(result)
         return result;
     }
     else {
