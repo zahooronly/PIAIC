@@ -1,5 +1,4 @@
 "use strict";
-// todo app
 let todos = ["Class", "Lunch"];
 function addTodo(newTodo) {
     return todos.push(newTodo);
@@ -20,16 +19,10 @@ addTodo("Class Arrange");
 addTodo("Sir Nayyar Class Cancel");
 addTodo("Coding krni hy");
 addTodo("complete all todos");
-// console.log(todos)
-// removeTodo(1)
 console.log("Todos before removing from mid \n", todos);
-// updateTodo(1, "rat ki roti")
-// console.log(todos)
 function task2() {
     if ((todos.length) % 2 == 0) {
         const mid = todos.length / 2;
-        // removeTodo(mid)
-        // removeTodo(mid + 1)
         removeTodo2(mid, 2);
     }
     else {
