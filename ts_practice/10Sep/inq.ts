@@ -1,6 +1,6 @@
-import inquirer, { Answers, QuestionCollection } from "inquirer";
+import inquirer from "inquirer";
 
-const questions:QuestionCollection=[
+const questions=[
     {
         name:"name",
         type:"string",
@@ -8,11 +8,13 @@ const questions:QuestionCollection=[
     }
 ]
 
-const input:Promise<Answers>=inquirer.prompt(questions)
-input.then((answers:Answers)=>{
+const input=inquirer.prompt(questions)
+input.then((answers)=>{
     console.log(answers.name)
 })
+
 .catch((err:Error)=>{
     console.log(err)
 })
+
 console.log(input)
