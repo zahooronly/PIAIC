@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "This is ATM Machine for Zinger Bank.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "node index.js"
   },
