@@ -1,6 +1,8 @@
 import inquirer from 'inquirer';
+import logo from './logo.js';
 
 async function calculate() {
+  console.log(logo);
   const questions = [
     {
       type: 'input',
