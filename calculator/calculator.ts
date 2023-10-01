@@ -1,9 +1,9 @@
-import inquirer from 'inquirer';
+import inquirer, { Answers, QuestionCollection } from 'inquirer';
 import logo from './logo.js';
 
 async function calculate() {
   console.log(logo);
-  const questions = [
+  const questions:QuestionCollection = [
     {
       type: 'input',
       name: 'num1',
@@ -24,7 +24,7 @@ async function calculate() {
     },
   ];
 
-  const answers = await inquirer.prompt(questions);
+  const answers:Answers = await inquirer.prompt(questions);
 
   const num1 = parseFloat(answers.num1);
   const num2 = parseFloat(answers.num2);
