@@ -1,0 +1,26 @@
+{
+  "name": "atm-machine",
+  "version": "1.0.0",
+  "description": "This is ATM Machine for Zinger Bank.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZahoorOnly/PIAIC.git"
+  },
+  "keywords": [
+    "atm"
+  ],
+  "author": "Zahoor Ahmad",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ZahoorOnly/PIAIC/issues"
+  },
+  "homepage": "https://github.com/ZahoorOnly/PIAIC#readme",
+  "dependencies": {
+    "@types/inquirer": "^9.0.3",
+    "inquirer": "^9.2.11"
+  }
+}
